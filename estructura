@@ -1,0 +1,7 @@
+proyecto/
+    ├── app.py
+    ├── static/
+    │   └── js/
+    │       └── main.js
+    └── templates/
+        └── index.html
