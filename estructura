@@ -1,7 +1,16 @@
 proyecto/
-    ├── app.py
-    ├── static/
-    │   └── js/
-    │       └── main.js
-    └── templates/
-        └── index.html
+├── static/
+│   ├── js/
+│   │   └── main.js            # Lógica de la interfaz y manejo de DataTables
+│   └── css/
+│       └── custom-styles.css  # Estilos personalizados
+├── templates/
+│   └── index.html            # Plantilla principal de la aplicación
+├── instance/                 # Directorio de instancia de Flask (bases de datos)
+│   └── database.db          # Base de datos SQLite
+├── models.py                # Definición de modelos y lógica de datos
+├── app.py                   # Aplicación Flask y rutas API
+├── requirements.txt         # Dependencias del proyecto
+├── .flaskenv               # Variables de entorno para Flask
+├── .gitignore              # Configuración de archivos ignorados por Git
+└── README.md               # Documentación del proyecto
